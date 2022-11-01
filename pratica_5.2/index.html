@@ -11,31 +11,45 @@
 <body>
     <form>
         <div>
-            <input type="text" name="modelo">
+            <label for="modeloCarro">Modelo do Carro: </label>
+            <input id="modeloCarro" type="text" name="modelo">
         </div>
         <div>
-            <input type="text" name="marca">
+            <label for="marcaCarro">Marca do Carro: </label>
+            <input id="marcaCarro" type="text" name="marca">
         </div>
         <div>
-            <input type="text" name="ano">
+            <label for="anoCarro">Ano do Carro: </label>
+            <input id="anoCarro" type="text" name="ano">
         </div>
         <div>
-            <input type="text" name="quilometragem">
+            <label for="quilometragem">Quilometragem: </label>
+            <input id="quilometragem" type="text" name="quilometragem">
         </div>
         <div>
-            <input type="text" name="valor">
+            <label for="valorCarro">Valor do Carro: </label>
+            <input id="valorCarro" type="text" name="valor">
         </div>
         <div>
-            <input type="radio" name="usadoOuNovo" value="Novo">
-            <input type="radio" name="usadoOuNovo" value="Usado">
+            <label for="carroNovo">Carro Novo</label>
+            <input id="carroNovo" type="radio" name="usadoOuNovo" value="Novo">
+
+            <label for="carroUsado"> Carro Usado</label>
+            <input id="carroUsado" type="radio" name="usadoOuNovo" value="Usado">
         </div>
         <div>
-            <input type="checkbox" name="adicionais" value="Airbag">
-            <input type="checkbox" name="adicionais" value="Alarme">
-            <input type="checkbox" name="adicionais" value="Ar_Condicionado">
+            <label for="adicionalAirbag">Adicionar Airbag</label>
+            <input id="adicionalAirbag" type="checkbox" name="adicionais" value="Airbag">
+
+            <label for="adicionalAlarme">Adicionar Airbag</label>
+            <input id="adicionalAlarme" type="checkbox" name="adicionais" value="Alarme">
+
+            <label for="adicionalArCondicionado">Adicionar Ar Condicionado</label>
+            <input id="adicionalArCondicionado" type="checkbox" name="adicionais" value="ArCondicionado">
         </div>
         <div>
-            <select name="finalPlaca">
+            <label for="finalPlaca">Escolha o Final da Placa: </label>
+            <select id="finalPlaca" name="finalPlaca">
                 <option value="final_1" selected>1</option>
                 <option value="final_2">2</option>
                 <option value="final_3">3</option>
