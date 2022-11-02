@@ -1,0 +1,44 @@
+.headerSection {
+    background-color: purple;
+    height: 14vh;
+}
+
+.headerPart {
+    height: 7vh;
+    text-align: center;
+}
+
+.navBar {
+    line-height: 6vh;
+}
+
+.navOptions {
+    vertical-align: middle;
+    line-height: normal;
+    margin-left: 2vw;
+    color: white;
+
+}
+
+#searchBar {
+    height: 2.5vh;
+    margin-top: 2vh;
+}
+
+.content {
+    height: 86vh;
+    background-color: #ededed;
+}
+
+.card {
+    width: 30vw;
+    height: 200px;
+    margin: 1vw 1.66vw;
+    float: left;
+    box-shadow: 1px 1px 10px #888888;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 8px #888888
+}
