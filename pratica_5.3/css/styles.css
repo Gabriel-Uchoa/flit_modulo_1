@@ -34,9 +34,10 @@
 /** CONTENT*/
 
 .content {
-    height: 86vh;
+    min-height: 86vh;
     background-color: #ededed;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .contents {
@@ -77,9 +78,9 @@
 
 /** Cards*/
 
-.card{
+.card {
     background-color: white;
-    height: 224px;
+    height: 260px;
     width: 15vw;
     float: left;
     margin: 0 2.5vw;
@@ -93,19 +94,58 @@
     height: 330px;
 }
 
-.novoPreco{
+.novoPreco {
     font-weight: bold;
     text-align: left;
     margin: 0 1.8vw;
     color: green;
 }
 
-.antigoPreco{
+.describe {
+    border-top: solid rgb(146, 144, 144) 0.3vh;
+}
+
+.card:hover .antigoPreco {
+    display: block;
+}
+
+.antigoPreco {
+    display: none;
     font-size: 15px;
     font-weight: lighter;
     text-align: left;
     margin: 0 1.8vw;
     color: red;
     text-decoration-line: line-through;
-    border-top:  solid rgb(146, 144, 144) 0.3vh;
+}
+
+/** Forms*/
+
+.styleInput{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.forms{
+    background-color: white;
+    width: 25vw;
+    padding: 14px 20px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+
+}
+#submit {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #45a049;
 }
