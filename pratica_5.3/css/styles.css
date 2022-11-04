@@ -1,6 +1,13 @@
+/** HEADER*/
+
 .headerSection {
     background-color: purple;
     height: 14vh;
+}
+
+#searchBar {
+    height: 2.5vh;
+    margin-top: 2vh;
 }
 
 .headerPart {
@@ -14,31 +21,91 @@
 
 .navOptions {
     vertical-align: middle;
-    line-height: normal;
     margin-left: 2vw;
     color: white;
-
 }
 
-#searchBar {
-    height: 2.5vh;
-    margin-top: 2vh;
+.navOptions:hover {
+    padding: 0.5%;
+    transition-property: background-color;
+    background-color: rgba(0, 0, 0, 0.3);
 }
+
+/** CONTENT*/
 
 .content {
     height: 86vh;
     background-color: #ededed;
+    text-align: center;
 }
 
-.card {
-    width: 30vw;
-    height: 200px;
-    margin: 1vw 1.66vw;
-    float: left;
-    box-shadow: 1px 1px 10px #888888;
+.contents {
+    width: 80w;
+    margin-top: 5vh;
+    display: inline-block;
+}
+
+/** BENEFITS*/
+
+.benefits {
+    height: 15vh;
     background-color: white;
+    border-radius: 1vw;
+}
+
+.firstOffer {
+    border-right: solid rgb(146, 144, 144) 0.3vh;
+}
+
+.firstOffer,
+.offer {
+    height: 15vh;
+    width: 20vw;
+    float: left;
+    text-align: left;
+}
+
+.offerTitle {
+    margin-top: 3.5vh;
+}
+
+.subTitle,
+.offerTitle {
+    margin-left: 1vw;
+
+}
+
+/** Cards*/
+
+.card{
+    background-color: white;
+    height: 224px;
+    width: 15vw;
+    float: left;
+    margin: 0 2.5vw;
+    overflow: hidden;
 }
 
 .card:hover {
-    box-shadow: 5px 5px 8px #888888
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    height: 330px;
+}
+
+.novoPreco{
+    font-weight: bold;
+    text-align: left;
+    margin: 0 1.8vw;
+    color: green;
+}
+
+.antigoPreco{
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: left;
+    margin: 0 1.8vw;
+    color: red;
+    text-decoration-line: line-through;
+    border-top:  solid rgb(146, 144, 144) 0.3vh;
 }
